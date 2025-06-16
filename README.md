@@ -1,5 +1,5 @@
 # OS-Sketch
-![image](https://github.com/bjlybjb/OS-Sketch/blob/main/OS-Sketch.png)
+![image](https://github.com/HanWu3125/OS-Sketch/blob/main/OS-Sketch.png)
 
 **OS-Sketch** comprises a diverse style of sketches. It not only includes sketches previously used in research but also incorporates out-of-distribution (OOD) style sketches selected from the internet. Additionally, sketches selected from the internet are also available for researchers to conduct experimental studies. Second, the dataset not only contains traditional research photos with a single background but also includes numerous in-the-wild photos. It includes photos with different backgrounds, ages, sexes, expressions, perspectives and illumination. By exposing the model to a variety of photos in a one-shot context, its performance can be intuitively demonstrated. 
 
