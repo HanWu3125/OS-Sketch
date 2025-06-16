@@ -1,7 +1,7 @@
 # OS-Sketch
 ![image](https://github.com/HanWu3125/OS-Sketch/blob/main/OS-Sketch.png)
 
-**OS-Sketch** comprises a diverse style of sketches. It not only includes sketches previously used in research but also incorporates out-of-distribution (OOD) style sketches selected from the internet. Additionally, sketches selected from the internet are also available for researchers to conduct experimental studies. Second, the dataset not only contains traditional research photos with a single background but also includes numerous in-the-wild photos. It includes photos with different backgrounds, ages, sexes, expressions, perspectives and illumination. By exposing the model to a variety of photos in a one-shot context, its performance can be intuitively demonstrated. 
+**OS-Sketch** comprises a diverse style of sketches. It not only includes sketches previously used in research but also incorporates out-of-distribution (OOD) style sketches selected from the internet. Additionally, sketches selected from the internet are also available for researchers to conduct experimental studies. At the same time, the dataset not only contains traditional research photos with a single background but also includes numerous in-the-wild photos. It includes photos with different backgrounds, ages, sexes, expressions, perspectives and illumination. By exposing the model to a variety of photos in a one-shot context, its performance can be intuitively demonstrated. 
 
 It comprises four distinct components: 
 (i) 40 photo-sketch pairs selected from online amateur artists and bloggers; 
@@ -20,7 +20,7 @@ You can download the pre-trained facial landmark detection model file "shape_pre
 
 Then run `sketch_contrast_normalizer.py` to convert sketches into high-contrast grayscale images, ensuring sketches exhibit uniform pure black-and-white tonality.
 
-3.All sketches are uniformly converted into high-contrast grayscale images during evaluation. If you wish to use the original Internet-sourced sketches for research, you can find them in the original-ood-sketches folder.
+3.All sketches are uniformly converted into high-contrast grayscale images during evaluation. If you wish to use the original Internet-sourced sketches for research, you can find them in the **original-ood-sketches** folder.
 
 
 ## Dataset Agreement
