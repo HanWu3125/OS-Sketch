@@ -13,14 +13,14 @@ It comprises four distinct components:
 ## OS-Sketch Dataset Acquisition
 1.Google Drive: [downloading link](https://drive.google.com/file/d/1FGmPlz84-C40XF50V92YYhzp7OMnnA0Q/view?usp=drive_link) 
 
-2.Due to copyright restrictions, part of the CUFSF dataset must be obtained independently via the following link. Select photos and sketches ranging from "00043fb001d_931230.jpg" to "00152fa001d_931230.jpg" as test data:
+2.Due to copyright restrictions, part of the CUFSF dataset must be obtained independently via the following link. Select photos and sketches ranging from `00043fb001d_931230.jpg` to `00152fa001d_931230.jpg` as test data:
 https://mmlab.ie.cuhk.edu.hk/archive/cufsf/.
 
 You can download the pre-trained facial landmark detection model file "shape_predictor_68_face_landmarks.dat" from: [downloading link](https://drive.google.com/file/d/1mkOKLUYtPBCGjM2TfxkpQ6qY-iD1YimH/view?usp=drive_link). And then modify the file path in `Sketch2Photo_Alignment.py` and execute the script to perform alignment between photos and sketches.
 
 Then run `sketch_contrast_normalizer.py` to convert sketches into high-contrast grayscale images, ensuring sketches exhibit uniform pure black-and-white tonality.
 
-3.All sketches are uniformly converted into high-contrast grayscale images during evaluation. If you wish to use the original Internet-sourced sketches for research, you can find them in the **original-ood-sketches** folder.
+3.All sketches are uniformly converted into high-contrast grayscale images during evaluation. If you wish to use the original Internet-sourced sketches for research, you can find them in the `original-ood-sketches` folder.
 
 
 ## Dataset Agreement
